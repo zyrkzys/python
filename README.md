@@ -6,3 +6,6 @@ This notebook has examples of how the ```pickle``` module can be used to produce
 
 ## ```asyncio``` 
 These are examples of Python's ```asyncio``` module, including two scripts. The notebook works, but it's better to segment out the asyncio code into scripts so it will run without the weird context of the Jupyter iPython interpreter, which causes some issues with the event loops ```asyncio``` spawns.
+
+## Interprocess communication (IPC)
+Using an ```os.pipe()```, I've got a simple example where one process forks, and the script continues with the parent send a message through the pipe and the child reading the message.
