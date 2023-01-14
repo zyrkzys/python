@@ -9,3 +9,6 @@ These are examples of Python's ```asyncio``` module, including two scripts. The 
 
 ## Interprocess communication (IPC) - example_ipc.py
 Using an ```os.pipe()```, I've got a simple example where one process forks, and the script continues with the parent send a message through the pipe and the child reading the message.
+
+## ```multiprocessing``` - example_multiprocessing.py
+Examples of various ways to parallelize with ```multiprocessing```
